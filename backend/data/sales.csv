@@ -1,0 +1,503 @@
+OrderID,Date,Region,Industry,ClientName,Product,ProductCategory,UnitsSold,UnitPrice(INR),TotalAmount(INR),SalesPerson,LeadSource,Status
+ORD0001,12/22/24,West,Polymers,Advanced Polymers Ltd,Indentation Hardness Tester,Accessories,5,22000,110000,Sneha,Cold Email,Closed-Lost
+ORD0002,5/13/24,North,Composites,AeroComposite Labs,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Aditya,LinkedIn,Closed-Lost
+ORD0003,5/7/24,West,Allied Industries,JIT Allied R&D Center,Izod Impact Tester,Testing Instrument,2,225000,450000,Rahul,Trade Exhibition,Closed-Won
+ORD0004,4/2/24,South,Polymers,PolyTech India Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,3,190000,570000,Aditya,Cold Email,Closed-Lost
+ORD0005,11/10/24,West,Rubber,RubChem Pvt Ltd,Hardness & Abrasion Tester,Testing Instrument,5,295000,1475000,Meera,LinkedIn,Closed-Lost
+ORD0006,5/7/24,West,Polymers,BrightPoly Solutions,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Meera,Cold Call,Closed-Lost
+ORD0007,1/29/25,East,Rubber,RubberFlex Industries,UV Accelerated Weathering Chamber,Testing Instrument,2,560000,1120000,Meera,LinkedIn,Closed-Lost
+ORD0008,12/11/24,South,Polymers,PolyTech India Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Aditya,Trade Exhibition,Closed-Lost
+ORD0009,7/19/24,North,Polymers,PolyTech India Pvt Ltd,Indentation Hardness Tester,Accessories,5,22000,110000,Meera,Cold Email,Closed-Won
+ORD0010,5/7/24,East,Composites,CompEdge Materials Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,2,190000,380000,Meera,Referral,Closed-Lost
+ORD0011,4/26/24,North,Allied Industries,Industrial Material Systems,Indentation Hardness Tester,Accessories,3,22000,66000,Rahul,Trade Exhibition,Closed-Lost
+ORD0012,5/20/24,North,Composites,NextGen Composite Solutions,Capillary Rheometer,Testing Instrument,5,460000,2300000,Aditya,Cold Email,Closed-Lost
+ORD0013,9/3/24,East,Rubber,RubberFlex Industries,Swelling Tester,Testing Instrument,1,175000,175000,Aditya,Cold Email,Closed-Won
+ORD0014,6/30/24,North,Rubber,FlexRubber Corp,UV Accelerated Weathering Chamber,Testing Instrument,4,560000,2240000,Meera,Cold Email,Closed-Lost
+ORD0015,11/8/24,West,Polymers,Advanced Polymers Ltd,Indentation Hardness Tester,Accessories,1,22000,22000,Aditya,Cold Call,Closed-Lost
+ORD0016,8/16/24,East,Composites,AeroComposite Labs,Digital Hardness Tester,Testing Instrument,5,75000,375000,Aditya,Cold Call,Closed-Won
+ORD0017,3/26/24,South,Polymers,PolyMould Innovations,Hardness & Abrasion Tester,Testing Instrument,5,295000,1475000,Sneha,Cold Call,Closed-Lost
+ORD0018,6/12/24,South,Polymers,PolyTech India Pvt Ltd,Izod Impact Tester,Testing Instrument,5,225000,1125000,Rahul,Trade Exhibition,Closed-Lost
+ORD0019,2/1/24,West,Rubber,RubberOne Testing Labs,Compression Moulding Press,Accessories,3,125000,375000,Aditya,Website Lead,Closed-Lost
+ORD0020,12/1/24,West,Composites,FibreMatrix Composites,Compression Moulding Press,Accessories,1,125000,125000,Sneha,Partner Reseller,Closed-Won
+ORD0021,4/10/24,West,Composites,FibreMatrix Composites,Tensile Sample Cutter,Accessories,4,18000,72000,Rahul,Website Lead,Closed-Lost
+ORD0022,6/14/24,North,Composites,CompEdge Materials Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,2,190000,380000,Meera,Website Lead,Closed-Won
+ORD0023,8/9/24,North,Composites,AeroComposite Labs,HDX Tensile Tester,Testing Instrument,4,450000,1800000,Sneha,Referral,Closed-Lost
+ORD0024,6/5/24,West,Rubber,RubChem Pvt Ltd,Swelling Tester,Testing Instrument,1,175000,175000,Meera,Trade Exhibition,Closed-Lost
+ORD0025,10/13/24,North,Rubber,RubberOne Testing Labs,Tensile Sample Cutter,Accessories,3,18000,54000,Aditya,Website Lead,Closed-Won
+ORD0026,8/9/24,North,Rubber,RubberFlex Industries,Micro Melt Flow Index Tester,Testing Instrument,2,310000,620000,Aditya,Trade Exhibition,Closed-Won
+ORD0027,10/21/24,West,Rubber,RubChem Pvt Ltd,Compression Moulding Press,Accessories,1,125000,125000,Sneha,Partner Reseller,Closed-Lost
+ORD0028,2/19/24,North,Rubber,FlexRubber Corp,Hardness & Abrasion Tester,Testing Instrument,3,295000,885000,Aditya,Referral,Closed-Lost
+ORD0029,2/4/24,South,Polymers,PolyMould Innovations,Indentation Hardness Tester,Accessories,1,22000,22000,Aditya,Partner Reseller,Closed-Won
+ORD0030,5/28/24,North,Polymers,BrightPoly Solutions,MFI Tester,Testing Instrument,1,380000,380000,Rahul,Website Lead,Closed-Lost
+ORD0031,7/17/24,East,Allied Industries,ProtoTest Innovations,UV Accelerated Weathering Chamber,Testing Instrument,4,560000,2240000,Meera,Referral,Closed-Lost
+ORD0032,8/20/24,East,Allied Industries,JIT Allied R&D Center,Digital Hardness Tester,Testing Instrument,1,75000,75000,Sneha,Website Lead,Closed-Lost
+ORD0033,8/7/24,East,Polymers,PolyMould Innovations,Compression Moulding Press,Accessories,4,125000,500000,Sneha,Cold Email,Closed-Won
+ORD0034,1/6/24,South,Rubber,RubberFlex Industries,Izod Impact Tester,Testing Instrument,2,225000,450000,Aditya,Referral,Closed-Won
+ORD0035,4/27/24,South,Rubber,RubberOne Testing Labs,Digital Hardness Tester,Testing Instrument,5,75000,375000,Rahul,LinkedIn,Closed-Lost
+ORD0036,3/27/24,East,Composites,NextGen Composite Solutions,Indentation Hardness Tester,Accessories,1,22000,22000,Rahul,Cold Call,Closed-Won
+ORD0037,11/1/24,South,Composites,CompEdge Materials Pvt Ltd,Capillary Rheometer,Testing Instrument,2,460000,920000,Aditya,Referral,Closed-Won
+ORD0038,2/3/25,South,Polymers,PolyMould Innovations,MFI Tester,Testing Instrument,5,380000,1900000,Sneha,Website Lead,Closed-Lost
+ORD0039,1/21/24,North,Allied Industries,Precision Test Labs,HDX Tensile Tester,Testing Instrument,2,450000,900000,Aditya,LinkedIn,Closed-Won
+ORD0040,5/19/24,East,Composites,NextGen Composite Solutions,DSC Thermal Analyzer,Testing Instrument,4,190000,760000,Aditya,Partner Reseller,Closed-Lost
+ORD0041,1/24/24,East,Composites,CompEdge Materials Pvt Ltd,Flexural Testing Machine,Testing Instrument,4,420000,1680000,Sneha,Trade Exhibition,Closed-Won
+ORD0042,5/11/24,North,Composites,AeroComposite Labs,MFI Tester,Testing Instrument,5,380000,1900000,Aditya,Cold Call,Closed-Won
+ORD0043,7/2/24,East,Composites,CompEdge Materials Pvt Ltd,Swelling Tester,Testing Instrument,3,175000,525000,Meera,Partner Reseller,Closed-Won
+ORD0044,8/23/24,East,Rubber,RubChem Pvt Ltd,Digital Hardness Tester,Testing Instrument,2,75000,150000,Aditya,LinkedIn,Closed-Won
+ORD0045,6/4/24,South,Polymers,Advanced Polymers Ltd,Flexural Testing Machine,Testing Instrument,2,420000,840000,Rahul,LinkedIn,Closed-Won
+ORD0046,12/8/24,West,Polymers,Advanced Polymers Ltd,DSC Thermal Analyzer,Testing Instrument,3,190000,570000,Aditya,Referral,Closed-Lost
+ORD0047,10/26/24,South,Polymers,PolyMould Innovations,MFI Tester,Testing Instrument,1,380000,380000,Sneha,Trade Exhibition,Closed-Lost
+ORD0048,4/21/24,North,Allied Industries,Industrial Material Systems,HDX Tensile Tester,Testing Instrument,1,450000,450000,Aditya,Website Lead,Closed-Won
+ORD0049,4/23/24,East,Allied Industries,JIT Allied R&D Center,UV Accelerated Weathering Chamber,Testing Instrument,1,560000,560000,Meera,Partner Reseller,Closed-Lost
+ORD0050,9/9/24,North,Composites,FibreMatrix Composites,MFI Tester,Testing Instrument,1,380000,380000,Aditya,Trade Exhibition,Closed-Won
+ORD0051,1/24/24,West,Rubber,FlexRubber Corp,Differential Viscometer,Testing Instrument,1,330000,330000,Aditya,Cold Email,Closed-Lost
+ORD0052,4/23/24,East,Allied Industries,ProtoTest Innovations,MFI Tester,Testing Instrument,1,380000,380000,Aditya,Cold Call,Closed-Won
+ORD0053,5/1/24,North,Rubber,RubberFlex Industries,Hardness & Abrasion Tester,Testing Instrument,3,295000,885000,Sneha,LinkedIn,Closed-Lost
+ORD0054,12/28/24,East,Polymers,Advanced Polymers Ltd,Hardness & Abrasion Tester,Testing Instrument,3,295000,885000,Meera,Website Lead,Closed-Won
+ORD0055,1/23/25,North,Composites,NextGen Composite Solutions,Micro Melt Flow Index Tester,Testing Instrument,4,310000,1240000,Rahul,Partner Reseller,Closed-Won
+ORD0056,6/7/24,North,Polymers,PolyTech India Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,2,310000,620000,Sneha,Cold Call,Closed-Won
+ORD0057,8/19/24,East,Allied Industries,Precision Test Labs,MFI Tester,Testing Instrument,2,380000,760000,Rahul,Partner Reseller,Closed-Won
+ORD0058,11/5/24,South,Rubber,FlexRubber Corp,Indentation Hardness Tester,Accessories,2,22000,44000,Meera,Referral,Closed-Won
+ORD0059,6/25/24,East,Rubber,RubChem Pvt Ltd,MFI Tester,Testing Instrument,1,380000,380000,Aditya,Website Lead,Closed-Won
+ORD0060,6/19/24,North,Rubber,RubChem Pvt Ltd,Flexural Testing Machine,Testing Instrument,4,420000,1680000,Meera,Trade Exhibition,Closed-Won
+ORD0061,6/26/24,North,Composites,AeroComposite Labs,HDX Tensile Tester,Testing Instrument,5,450000,2250000,Rahul,Trade Exhibition,Closed-Lost
+ORD0062,7/26/24,South,Allied Industries,JIT Allied R&D Center,Swelling Tester,Testing Instrument,1,175000,175000,Sneha,Referral,Closed-Lost
+ORD0063,2/29/24,North,Composites,NextGen Composite Solutions,Izod Impact Tester,Testing Instrument,4,225000,900000,Sneha,LinkedIn,Closed-Lost
+ORD0064,6/4/24,West,Polymers,PolyMould Innovations,UV Accelerated Weathering Chamber,Testing Instrument,2,560000,1120000,Rahul,LinkedIn,Closed-Won
+ORD0065,1/29/24,East,Rubber,FlexRubber Corp,Digital Hardness Tester,Testing Instrument,5,75000,375000,Meera,Trade Exhibition,Closed-Won
+ORD0066,6/26/24,East,Polymers,BrightPoly Solutions,UV Accelerated Weathering Chamber,Testing Instrument,4,560000,2240000,Sneha,Trade Exhibition,Closed-Lost
+ORD0067,3/19/24,North,Polymers,PolyMould Innovations,Differential Viscometer,Testing Instrument,5,330000,1650000,Rahul,Referral,Closed-Won
+ORD0068,6/19/24,East,Rubber,FlexRubber Corp,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Sneha,Referral,Closed-Won
+ORD0069,12/11/24,North,Polymers,BrightPoly Solutions,MFI Tester,Testing Instrument,2,380000,760000,Meera,Cold Call,Closed-Won
+ORD0070,1/12/25,North,Composites,AeroComposite Labs,DSC Thermal Analyzer,Testing Instrument,2,190000,380000,Meera,LinkedIn,Closed-Won
+ORD0071,3/30/24,South,Polymers,PolyTech India Pvt Ltd,MFI Tester,Testing Instrument,3,380000,1140000,Aditya,Cold Call,Closed-Lost
+ORD0072,11/19/24,North,Rubber,RubChem Pvt Ltd,MFI Tester,Testing Instrument,1,380000,380000,Rahul,Partner Reseller,Closed-Lost
+ORD0073,1/17/25,West,Rubber,RubChem Pvt Ltd,Swelling Tester,Testing Instrument,1,175000,175000,Aditya,Partner Reseller,Closed-Won
+ORD0074,11/15/24,West,Rubber,FlexRubber Corp,MFI Tester,Testing Instrument,3,380000,1140000,Aditya,Trade Exhibition,Closed-Won
+ORD0075,2/9/25,West,Allied Industries,Precision Test Labs,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Rahul,LinkedIn,Closed-Won
+ORD0076,8/27/24,North,Polymers,Advanced Polymers Ltd,Indentation Hardness Tester,Accessories,5,22000,110000,Meera,LinkedIn,Closed-Won
+ORD0077,6/9/24,West,Composites,CompEdge Materials Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Aditya,Cold Email,Closed-Lost
+ORD0078,2/6/25,West,Polymers,PolyMould Innovations,MFI Tester,Testing Instrument,3,380000,1140000,Rahul,Trade Exhibition,Closed-Won
+ORD0079,2/2/24,West,Allied Industries,Precision Test Labs,Tensile Sample Cutter,Accessories,2,18000,36000,Aditya,Trade Exhibition,Closed-Won
+ORD0080,4/16/24,North,Rubber,RubChem Pvt Ltd,Digital Hardness Tester,Testing Instrument,1,75000,75000,Rahul,Trade Exhibition,Closed-Lost
+ORD0081,7/22/24,West,Polymers,Advanced Polymers Ltd,Differential Viscometer,Testing Instrument,1,330000,330000,Rahul,Partner Reseller,Closed-Lost
+ORD0082,9/25/24,North,Rubber,RubChem Pvt Ltd,Izod Impact Tester,Testing Instrument,2,225000,450000,Aditya,Trade Exhibition,Closed-Lost
+ORD0083,8/28/24,East,Rubber,FlexRubber Corp,UV Accelerated Weathering Chamber,Testing Instrument,4,560000,2240000,Sneha,Website Lead,Closed-Lost
+ORD0084,5/28/24,South,Polymers,PolyTech India Pvt Ltd,Izod Impact Tester,Testing Instrument,3,225000,675000,Sneha,Referral,Closed-Lost
+ORD0085,2/24/24,East,Rubber,FlexRubber Corp,HDX Tensile Tester,Testing Instrument,1,450000,450000,Meera,LinkedIn,Closed-Won
+ORD0086,8/24/24,West,Rubber,RubChem Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,2,190000,380000,Aditya,Partner Reseller,Closed-Lost
+ORD0087,2/28/25,East,Rubber,FlexRubber Corp,Compression Moulding Press,Accessories,1,125000,125000,Meera,Website Lead,Closed-Lost
+ORD0088,2/26/25,South,Rubber,RubberFlex Industries,Swelling Tester,Testing Instrument,5,175000,875000,Rahul,Referral,Closed-Won
+ORD0089,12/27/24,South,Allied Industries,JIT Allied R&D Center,Swelling Tester,Testing Instrument,4,175000,700000,Rahul,Cold Email,Closed-Won
+ORD0090,1/1/25,South,Composites,AeroComposite Labs,Swelling Tester,Testing Instrument,4,175000,700000,Rahul,Website Lead,Closed-Lost
+ORD0091,10/18/24,South,Composites,CompEdge Materials Pvt Ltd,Izod Impact Tester,Testing Instrument,2,225000,450000,Meera,Cold Email,Closed-Lost
+ORD0092,6/3/24,North,Allied Industries,Precision Test Labs,Capillary Rheometer,Testing Instrument,1,460000,460000,Meera,LinkedIn,Closed-Lost
+ORD0093,7/18/24,South,Allied Industries,ProtoTest Innovations,Flexural Testing Machine,Testing Instrument,4,420000,1680000,Aditya,Website Lead,Closed-Lost
+ORD0094,3/7/24,West,Rubber,RubChem Pvt Ltd,Compression Moulding Press,Accessories,1,125000,125000,Aditya,Referral,Closed-Won
+ORD0095,5/24/24,West,Allied Industries,Industrial Material Systems,Capillary Rheometer,Testing Instrument,5,460000,2300000,Sneha,LinkedIn,Closed-Lost
+ORD0096,6/29/24,South,Composites,CompEdge Materials Pvt Ltd,MFI Tester,Testing Instrument,3,380000,1140000,Sneha,LinkedIn,Closed-Lost
+ORD0097,2/28/25,West,Allied Industries,Precision Test Labs,Differential Viscometer,Testing Instrument,2,330000,660000,Rahul,Cold Email,Closed-Lost
+ORD0098,2/8/24,West,Allied Industries,JIT Allied R&D Center,Digital Hardness Tester,Testing Instrument,1,75000,75000,Aditya,Referral,Closed-Lost
+ORD0099,9/6/24,South,Allied Industries,ProtoTest Innovations,HDX Tensile Tester,Testing Instrument,1,450000,450000,Aditya,Cold Email,Closed-Lost
+ORD0100,11/29/24,East,Composites,CompEdge Materials Pvt Ltd,Compression Moulding Press,Accessories,5,125000,625000,Aditya,Cold Email,Closed-Lost
+ORD0101,8/17/24,South,Rubber,RubberFlex Industries,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Rahul,Cold Email,Closed-Lost
+ORD0102,12/6/24,West,Polymers,Advanced Polymers Ltd,Capillary Rheometer,Testing Instrument,1,460000,460000,Aditya,Cold Call,Closed-Lost
+ORD0103,9/9/24,West,Polymers,PolyTech India Pvt Ltd,Swelling Tester,Testing Instrument,4,175000,700000,Sneha,Cold Call,Closed-Lost
+ORD0104,10/22/24,South,Rubber,FlexRubber Corp,MFI Tester,Testing Instrument,3,380000,1140000,Rahul,LinkedIn,Closed-Lost
+ORD0105,1/5/25,North,Composites,NextGen Composite Solutions,Micro Melt Flow Index Tester,Testing Instrument,4,310000,1240000,Sneha,LinkedIn,Closed-Won
+ORD0106,11/24/24,South,Composites,NextGen Composite Solutions,Izod Impact Tester,Testing Instrument,5,225000,1125000,Meera,LinkedIn,Closed-Won
+ORD0107,9/9/24,West,Composites,NextGen Composite Solutions,Compression Moulding Press,Accessories,4,125000,500000,Rahul,Referral,Closed-Won
+ORD0108,2/20/25,East,Rubber,RubChem Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,5,310000,1550000,Rahul,Cold Call,Closed-Lost
+ORD0109,4/15/24,South,Allied Industries,ProtoTest Innovations,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Sneha,LinkedIn,Closed-Lost
+ORD0110,8/29/24,West,Allied Industries,JIT Allied R&D Center,Digital Hardness Tester,Testing Instrument,1,75000,75000,Meera,Cold Email,Closed-Lost
+ORD0111,7/24/24,West,Polymers,PolyTech India Pvt Ltd,Izod Impact Tester,Testing Instrument,2,225000,450000,Rahul,Website Lead,Closed-Won
+ORD0112,4/24/24,West,Composites,AeroComposite Labs,Swelling Tester,Testing Instrument,4,175000,700000,Rahul,LinkedIn,Closed-Lost
+ORD0113,1/17/24,North,Rubber,RubberFlex Industries,Capillary Rheometer,Testing Instrument,3,460000,1380000,Sneha,Cold Email,Closed-Lost
+ORD0114,1/23/24,West,Polymers,PolyTech India Pvt Ltd,Flexural Testing Machine,Testing Instrument,2,420000,840000,Aditya,Partner Reseller,Closed-Lost
+ORD0115,12/5/24,North,Allied Industries,ProtoTest Innovations,Capillary Rheometer,Testing Instrument,5,460000,2300000,Aditya,LinkedIn,Closed-Won
+ORD0116,6/17/24,South,Allied Industries,Industrial Material Systems,UV Accelerated Weathering Chamber,Testing Instrument,3,560000,1680000,Rahul,Cold Email,Closed-Won
+ORD0117,9/7/24,North,Composites,AeroComposite Labs,Hardness & Abrasion Tester,Testing Instrument,4,295000,1180000,Rahul,Referral,Closed-Lost
+ORD0118,7/27/24,West,Rubber,RubberFlex Industries,Micro Melt Flow Index Tester,Testing Instrument,5,310000,1550000,Meera,Partner Reseller,Closed-Won
+ORD0119,1/25/25,South,Composites,NextGen Composite Solutions,Micro Melt Flow Index Tester,Testing Instrument,2,310000,620000,Aditya,Cold Email,Closed-Won
+ORD0120,2/3/24,East,Allied Industries,Industrial Material Systems,UV Accelerated Weathering Chamber,Testing Instrument,2,560000,1120000,Rahul,Cold Call,Closed-Won
+ORD0121,10/20/24,South,Allied Industries,Industrial Material Systems,UV Accelerated Weathering Chamber,Testing Instrument,4,560000,2240000,Aditya,Website Lead,Closed-Lost
+ORD0122,7/20/24,North,Polymers,PolyMould Innovations,Indentation Hardness Tester,Accessories,4,22000,88000,Aditya,Cold Call,Closed-Won
+ORD0123,6/17/24,South,Composites,AeroComposite Labs,Indentation Hardness Tester,Accessories,5,22000,110000,Sneha,Cold Call,Closed-Won
+ORD0124,3/27/24,South,Rubber,RubberOne Testing Labs,Flexural Testing Machine,Testing Instrument,4,420000,1680000,Rahul,Partner Reseller,Closed-Lost
+ORD0125,7/12/24,East,Rubber,RubberOne Testing Labs,MFI Tester,Testing Instrument,2,380000,760000,Meera,Partner Reseller,Closed-Lost
+ORD0126,1/20/24,East,Composites,FibreMatrix Composites,MFI Tester,Testing Instrument,5,380000,1900000,Rahul,LinkedIn,Closed-Lost
+ORD0127,6/7/24,North,Rubber,RubChem Pvt Ltd,Digital Hardness Tester,Testing Instrument,3,75000,225000,Meera,Cold Email,Closed-Won
+ORD0128,4/2/24,North,Composites,FibreMatrix Composites,Compression Moulding Press,Accessories,5,125000,625000,Aditya,Trade Exhibition,Closed-Won
+ORD0129,2/17/25,South,Allied Industries,Precision Test Labs,Tensile Sample Cutter,Accessories,3,18000,54000,Aditya,Website Lead,Closed-Lost
+ORD0130,3/20/24,West,Rubber,RubChem Pvt Ltd,Hardness & Abrasion Tester,Testing Instrument,5,295000,1475000,Rahul,Cold Call,Closed-Won
+ORD0131,3/3/24,West,Rubber,RubberFlex Industries,Swelling Tester,Testing Instrument,3,175000,525000,Sneha,Trade Exhibition,Closed-Won
+ORD0132,1/5/24,West,Allied Industries,Industrial Material Systems,HDX Tensile Tester,Testing Instrument,5,450000,2250000,Rahul,Cold Call,Closed-Lost
+ORD0133,10/29/24,South,Polymers,Advanced Polymers Ltd,Hardness & Abrasion Tester,Testing Instrument,2,295000,590000,Rahul,Partner Reseller,Closed-Won
+ORD0134,3/5/24,East,Polymers,BrightPoly Solutions,Flexural Testing Machine,Testing Instrument,3,420000,1260000,Sneha,Partner Reseller,Closed-Won
+ORD0135,9/13/24,East,Rubber,RubberOne Testing Labs,Tensile Sample Cutter,Accessories,1,18000,18000,Meera,Website Lead,Closed-Lost
+ORD0136,9/5/24,East,Allied Industries,JIT Allied R&D Center,Indentation Hardness Tester,Accessories,2,22000,44000,Rahul,Website Lead,Closed-Lost
+ORD0137,12/18/24,South,Rubber,RubberOne Testing Labs,Tensile Sample Cutter,Accessories,1,18000,18000,Rahul,Referral,Closed-Won
+ORD0138,5/19/24,South,Allied Industries,Industrial Material Systems,DSC Thermal Analyzer,Testing Instrument,3,190000,570000,Sneha,Trade Exhibition,Closed-Won
+ORD0139,4/6/24,East,Rubber,RubberOne Testing Labs,Digital Hardness Tester,Testing Instrument,1,75000,75000,Meera,Referral,Closed-Lost
+ORD0140,1/16/24,North,Allied Industries,JIT Allied R&D Center,Flexural Testing Machine,Testing Instrument,3,420000,1260000,Sneha,LinkedIn,Closed-Lost
+ORD0141,12/9/24,South,Allied Industries,JIT Allied R&D Center,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Meera,LinkedIn,Closed-Lost
+ORD0142,8/20/24,East,Composites,FibreMatrix Composites,Tensile Sample Cutter,Accessories,3,18000,54000,Sneha,Cold Call,Closed-Won
+ORD0143,1/29/24,East,Rubber,RubChem Pvt Ltd,Compression Moulding Press,Accessories,5,125000,625000,Sneha,Cold Email,Closed-Lost
+ORD0144,6/7/24,West,Allied Industries,ProtoTest Innovations,HDX Tensile Tester,Testing Instrument,4,450000,1800000,Aditya,LinkedIn,Closed-Won
+ORD0145,2/24/24,West,Allied Industries,JIT Allied R&D Center,Izod Impact Tester,Testing Instrument,1,225000,225000,Meera,LinkedIn,Closed-Lost
+ORD0146,8/31/24,South,Polymers,Advanced Polymers Ltd,Capillary Rheometer,Testing Instrument,5,460000,2300000,Sneha,LinkedIn,Closed-Lost
+ORD0147,2/27/25,South,Rubber,RubberOne Testing Labs,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Sneha,LinkedIn,Closed-Won
+ORD0148,6/6/24,East,Allied Industries,Precision Test Labs,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Sneha,Cold Email,Closed-Won
+ORD0149,5/16/24,South,Allied Industries,ProtoTest Innovations,MFI Tester,Testing Instrument,5,380000,1900000,Meera,Cold Email,Closed-Won
+ORD0150,1/18/25,East,Rubber,RubberOne Testing Labs,Digital Hardness Tester,Testing Instrument,4,75000,300000,Rahul,Trade Exhibition,Closed-Lost
+ORD0151,4/17/24,East,Polymers,BrightPoly Solutions,Flexural Testing Machine,Testing Instrument,3,420000,1260000,Sneha,Partner Reseller,Closed-Won
+ORD0152,5/21/24,South,Rubber,RubberOne Testing Labs,Digital Hardness Tester,Testing Instrument,3,75000,225000,Sneha,LinkedIn,Closed-Won
+ORD0153,3/27/24,West,Allied Industries,Industrial Material Systems,MFI Tester,Testing Instrument,3,380000,1140000,Meera,Referral,Closed-Won
+ORD0154,3/17/24,West,Rubber,FlexRubber Corp,Hardness & Abrasion Tester,Testing Instrument,4,295000,1180000,Sneha,Partner Reseller,Closed-Won
+ORD0155,2/27/24,South,Polymers,PolyMould Innovations,Swelling Tester,Testing Instrument,1,175000,175000,Rahul,LinkedIn,Closed-Lost
+ORD0156,11/4/24,North,Polymers,PolyTech India Pvt Ltd,Capillary Rheometer,Testing Instrument,1,460000,460000,Meera,LinkedIn,Closed-Lost
+ORD0157,9/14/24,West,Allied Industries,ProtoTest Innovations,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Rahul,Referral,Closed-Won
+ORD0158,2/13/24,West,Allied Industries,Industrial Material Systems,MFI Tester,Testing Instrument,5,380000,1900000,Aditya,Website Lead,Closed-Won
+ORD0159,12/3/24,East,Rubber,RubberOne Testing Labs,Hardness & Abrasion Tester,Testing Instrument,4,295000,1180000,Rahul,Website Lead,Closed-Won
+ORD0160,3/13/24,West,Rubber,RubberFlex Industries,Digital Hardness Tester,Testing Instrument,3,75000,225000,Sneha,Referral,Closed-Won
+ORD0161,8/5/24,West,Composites,FibreMatrix Composites,HDX Tensile Tester,Testing Instrument,2,450000,900000,Meera,Partner Reseller,Closed-Won
+ORD0162,5/21/24,East,Allied Industries,Industrial Material Systems,Micro Melt Flow Index Tester,Testing Instrument,5,310000,1550000,Sneha,LinkedIn,Closed-Won
+ORD0163,3/29/24,East,Composites,CompEdge Materials Pvt Ltd,Indentation Hardness Tester,Accessories,5,22000,110000,Rahul,LinkedIn,Closed-Won
+ORD0164,8/6/24,West,Composites,FibreMatrix Composites,Micro Melt Flow Index Tester,Testing Instrument,1,310000,310000,Aditya,Partner Reseller,Closed-Won
+ORD0165,4/23/24,West,Rubber,FlexRubber Corp,Tensile Sample Cutter,Accessories,5,18000,90000,Sneha,Partner Reseller,Closed-Lost
+ORD0166,7/16/24,South,Rubber,RubberFlex Industries,Micro Melt Flow Index Tester,Testing Instrument,1,310000,310000,Sneha,Cold Email,Closed-Lost
+ORD0167,10/20/24,East,Polymers,PolyTech India Pvt Ltd,Swelling Tester,Testing Instrument,3,175000,525000,Aditya,Trade Exhibition,Closed-Lost
+ORD0168,3/1/24,West,Rubber,RubberFlex Industries,UV Accelerated Weathering Chamber,Testing Instrument,5,560000,2800000,Meera,Website Lead,Closed-Lost
+ORD0169,12/29/24,East,Composites,CompEdge Materials Pvt Ltd,Swelling Tester,Testing Instrument,1,175000,175000,Rahul,Trade Exhibition,Closed-Lost
+ORD0170,5/16/24,West,Rubber,FlexRubber Corp,Tensile Sample Cutter,Accessories,5,18000,90000,Rahul,Website Lead,Closed-Won
+ORD0171,2/11/24,North,Composites,AeroComposite Labs,Izod Impact Tester,Testing Instrument,5,225000,1125000,Rahul,Cold Email,Closed-Lost
+ORD0172,5/9/24,West,Rubber,RubChem Pvt Ltd,Swelling Tester,Testing Instrument,5,175000,875000,Rahul,Cold Email,Closed-Won
+ORD0173,11/10/24,East,Composites,NextGen Composite Solutions,UV Accelerated Weathering Chamber,Testing Instrument,2,560000,1120000,Aditya,Cold Call,Closed-Lost
+ORD0174,1/4/25,West,Rubber,FlexRubber Corp,Hardness & Abrasion Tester,Testing Instrument,4,295000,1180000,Meera,Partner Reseller,Closed-Won
+ORD0175,5/5/24,East,Rubber,RubChem Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,1,310000,310000,Meera,LinkedIn,Closed-Won
+ORD0176,5/15/24,West,Allied Industries,Industrial Material Systems,DSC Thermal Analyzer,Testing Instrument,5,190000,950000,Rahul,Referral,Closed-Lost
+ORD0177,12/5/24,West,Polymers,PolyMould Innovations,MFI Tester,Testing Instrument,5,380000,1900000,Sneha,LinkedIn,Closed-Won
+ORD0178,8/30/24,South,Rubber,RubberOne Testing Labs,Hardness & Abrasion Tester,Testing Instrument,3,295000,885000,Aditya,Cold Call,Closed-Lost
+ORD0179,8/28/24,South,Polymers,PolyMould Innovations,Differential Viscometer,Testing Instrument,5,330000,1650000,Aditya,LinkedIn,Closed-Lost
+ORD0180,6/21/24,South,Rubber,RubberOne Testing Labs,Compression Moulding Press,Accessories,3,125000,375000,Sneha,Website Lead,Closed-Lost
+ORD0181,10/28/24,North,Composites,NextGen Composite Solutions,UV Accelerated Weathering Chamber,Testing Instrument,1,560000,560000,Sneha,LinkedIn,Closed-Won
+ORD0182,8/27/24,East,Allied Industries,Precision Test Labs,Micro Melt Flow Index Tester,Testing Instrument,4,310000,1240000,Aditya,Partner Reseller,Closed-Lost
+ORD0183,1/14/25,North,Composites,AeroComposite Labs,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Meera,Cold Call,Closed-Lost
+ORD0184,4/2/24,North,Allied Industries,Precision Test Labs,Capillary Rheometer,Testing Instrument,3,460000,1380000,Sneha,Referral,Closed-Won
+ORD0185,4/28/24,West,Composites,CompEdge Materials Pvt Ltd,Swelling Tester,Testing Instrument,4,175000,700000,Meera,Trade Exhibition,Closed-Lost
+ORD0186,7/12/24,North,Polymers,Advanced Polymers Ltd,UV Accelerated Weathering Chamber,Testing Instrument,3,560000,1680000,Meera,Cold Call,Closed-Won
+ORD0187,9/12/24,North,Composites,FibreMatrix Composites,Compression Moulding Press,Accessories,3,125000,375000,Meera,Trade Exhibition,Closed-Lost
+ORD0188,1/28/25,East,Polymers,BrightPoly Solutions,Differential Viscometer,Testing Instrument,3,330000,990000,Aditya,Cold Email,Closed-Lost
+ORD0189,6/23/24,South,Allied Industries,Precision Test Labs,Indentation Hardness Tester,Accessories,1,22000,22000,Aditya,Trade Exhibition,Closed-Lost
+ORD0190,4/20/24,North,Allied Industries,Precision Test Labs,Indentation Hardness Tester,Accessories,2,22000,44000,Meera,Partner Reseller,Closed-Lost
+ORD0191,10/25/24,North,Rubber,RubChem Pvt Ltd,Indentation Hardness Tester,Accessories,4,22000,88000,Rahul,Referral,Closed-Lost
+ORD0192,9/30/24,South,Polymers,PolyTech India Pvt Ltd,Indentation Hardness Tester,Accessories,4,22000,88000,Rahul,Cold Email,Closed-Won
+ORD0193,5/31/24,South,Polymers,PolyMould Innovations,Capillary Rheometer,Testing Instrument,3,460000,1380000,Sneha,Trade Exhibition,Closed-Won
+ORD0194,7/3/24,East,Polymers,PolyMould Innovations,Differential Viscometer,Testing Instrument,5,330000,1650000,Sneha,LinkedIn,Closed-Lost
+ORD0195,3/29/24,East,Composites,AeroComposite Labs,Compression Moulding Press,Accessories,1,125000,125000,Aditya,Website Lead,Closed-Won
+ORD0196,3/1/24,East,Polymers,BrightPoly Solutions,Hardness & Abrasion Tester,Testing Instrument,5,295000,1475000,Aditya,Trade Exhibition,Closed-Won
+ORD0197,4/17/24,East,Composites,FibreMatrix Composites,UV Accelerated Weathering Chamber,Testing Instrument,3,560000,1680000,Meera,LinkedIn,Closed-Won
+ORD0198,11/20/24,South,Composites,FibreMatrix Composites,Digital Hardness Tester,Testing Instrument,2,75000,150000,Rahul,LinkedIn,Closed-Lost
+ORD0199,1/31/24,North,Polymers,Advanced Polymers Ltd,Digital Hardness Tester,Testing Instrument,2,75000,150000,Sneha,Website Lead,Closed-Won
+ORD0200,2/2/24,North,Rubber,RubChem Pvt Ltd,Izod Impact Tester,Testing Instrument,3,225000,675000,Sneha,Referral,Closed-Lost
+ORD0201,1/3/25,West,Rubber,FlexRubber Corp,HDX Tensile Tester,Testing Instrument,3,450000,1350000,Aditya,Cold Call,Closed-Won
+ORD0202,5/1/24,North,Composites,CompEdge Materials Pvt Ltd,MFI Tester,Testing Instrument,1,380000,380000,Sneha,Website Lead,Closed-Won
+ORD0203,6/6/24,North,Rubber,RubChem Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,5,310000,1550000,Rahul,Trade Exhibition,Closed-Lost
+ORD0204,2/17/24,West,Allied Industries,JIT Allied R&D Center,Differential Viscometer,Testing Instrument,1,330000,330000,Meera,Trade Exhibition,Closed-Lost
+ORD0205,12/4/24,East,Composites,NextGen Composite Solutions,Digital Hardness Tester,Testing Instrument,2,75000,150000,Rahul,Cold Email,Closed-Lost
+ORD0206,5/3/24,South,Composites,CompEdge Materials Pvt Ltd,Indentation Hardness Tester,Accessories,5,22000,110000,Sneha,Partner Reseller,Closed-Lost
+ORD0207,11/28/24,North,Polymers,BrightPoly Solutions,Capillary Rheometer,Testing Instrument,1,460000,460000,Aditya,Referral,Closed-Lost
+ORD0208,8/17/24,North,Allied Industries,ProtoTest Innovations,MFI Tester,Testing Instrument,5,380000,1900000,Aditya,Trade Exhibition,Closed-Won
+ORD0209,1/2/25,South,Allied Industries,Precision Test Labs,Tensile Sample Cutter,Accessories,1,18000,18000,Sneha,Website Lead,Closed-Lost
+ORD0210,11/9/24,North,Allied Industries,ProtoTest Innovations,Micro Melt Flow Index Tester,Testing Instrument,4,310000,1240000,Sneha,Cold Call,Closed-Lost
+ORD0211,8/28/24,South,Rubber,FlexRubber Corp,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Aditya,Partner Reseller,Closed-Won
+ORD0212,4/22/24,East,Polymers,Advanced Polymers Ltd,Hardness & Abrasion Tester,Testing Instrument,3,295000,885000,Meera,Cold Email,Closed-Won
+ORD0213,10/31/24,South,Composites,NextGen Composite Solutions,Digital Hardness Tester,Testing Instrument,4,75000,300000,Rahul,Website Lead,Closed-Won
+ORD0214,3/15/24,South,Composites,AeroComposite Labs,HDX Tensile Tester,Testing Instrument,3,450000,1350000,Aditya,Website Lead,Closed-Lost
+ORD0215,11/16/24,West,Polymers,BrightPoly Solutions,Tensile Sample Cutter,Accessories,1,18000,18000,Sneha,Website Lead,Closed-Lost
+ORD0216,9/24/24,North,Allied Industries,JIT Allied R&D Center,Tensile Sample Cutter,Accessories,4,18000,72000,Sneha,Trade Exhibition,Closed-Lost
+ORD0217,5/17/24,East,Rubber,RubberOne Testing Labs,Digital Hardness Tester,Testing Instrument,5,75000,375000,Sneha,LinkedIn,Closed-Won
+ORD0218,11/14/24,South,Polymers,Advanced Polymers Ltd,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Meera,Trade Exhibition,Closed-Won
+ORD0219,9/2/24,West,Rubber,FlexRubber Corp,Izod Impact Tester,Testing Instrument,2,225000,450000,Meera,Partner Reseller,Closed-Won
+ORD0220,2/17/24,East,Allied Industries,Industrial Material Systems,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Meera,Referral,Closed-Lost
+ORD0221,11/17/24,North,Polymers,Advanced Polymers Ltd,HDX Tensile Tester,Testing Instrument,4,450000,1800000,Sneha,Website Lead,Closed-Won
+ORD0222,2/26/24,North,Polymers,Advanced Polymers Ltd,MFI Tester,Testing Instrument,3,380000,1140000,Aditya,LinkedIn,Closed-Won
+ORD0223,12/12/24,East,Allied Industries,Industrial Material Systems,Izod Impact Tester,Testing Instrument,3,225000,675000,Meera,LinkedIn,Closed-Lost
+ORD0224,9/25/24,East,Rubber,RubberOne Testing Labs,Swelling Tester,Testing Instrument,1,175000,175000,Rahul,Partner Reseller,Closed-Won
+ORD0225,4/1/24,East,Allied Industries,JIT Allied R&D Center,Tensile Sample Cutter,Accessories,3,18000,54000,Sneha,Partner Reseller,Closed-Won
+ORD0226,9/14/24,East,Rubber,FlexRubber Corp,Capillary Rheometer,Testing Instrument,3,460000,1380000,Sneha,Website Lead,Closed-Won
+ORD0227,12/6/24,South,Composites,AeroComposite Labs,UV Accelerated Weathering Chamber,Testing Instrument,1,560000,560000,Rahul,Cold Email,Closed-Lost
+ORD0228,8/30/24,South,Allied Industries,Industrial Material Systems,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Aditya,Referral,Closed-Won
+ORD0229,1/11/25,East,Rubber,RubberFlex Industries,Micro Melt Flow Index Tester,Testing Instrument,2,310000,620000,Aditya,Cold Email,Closed-Won
+ORD0230,3/17/24,West,Composites,FibreMatrix Composites,Digital Hardness Tester,Testing Instrument,3,75000,225000,Aditya,Trade Exhibition,Closed-Won
+ORD0231,1/31/24,South,Polymers,BrightPoly Solutions,HDX Tensile Tester,Testing Instrument,3,450000,1350000,Aditya,Referral,Closed-Won
+ORD0232,6/18/24,West,Composites,NextGen Composite Solutions,Capillary Rheometer,Testing Instrument,1,460000,460000,Aditya,Trade Exhibition,Closed-Won
+ORD0233,9/9/24,South,Composites,AeroComposite Labs,Capillary Rheometer,Testing Instrument,4,460000,1840000,Rahul,Cold Email,Closed-Won
+ORD0234,5/5/24,North,Composites,FibreMatrix Composites,Differential Viscometer,Testing Instrument,2,330000,660000,Aditya,Trade Exhibition,Closed-Lost
+ORD0235,10/20/24,East,Allied Industries,Industrial Material Systems,Indentation Hardness Tester,Accessories,1,22000,22000,Sneha,Trade Exhibition,Closed-Won
+ORD0236,1/6/25,East,Rubber,RubberFlex Industries,DSC Thermal Analyzer,Testing Instrument,5,190000,950000,Sneha,LinkedIn,Closed-Won
+ORD0237,2/18/25,East,Allied Industries,Industrial Material Systems,Swelling Tester,Testing Instrument,4,175000,700000,Sneha,Cold Call,Closed-Won
+ORD0238,7/30/24,North,Composites,AeroComposite Labs,Swelling Tester,Testing Instrument,2,175000,350000,Aditya,Cold Email,Closed-Won
+ORD0239,12/19/24,North,Polymers,PolyTech India Pvt Ltd,HDX Tensile Tester,Testing Instrument,1,450000,450000,Rahul,Trade Exhibition,Closed-Won
+ORD0240,4/12/24,West,Rubber,RubberFlex Industries,MFI Tester,Testing Instrument,5,380000,1900000,Meera,LinkedIn,Closed-Won
+ORD0241,2/14/25,East,Allied Industries,Precision Test Labs,Izod Impact Tester,Testing Instrument,2,225000,450000,Aditya,Cold Email,Closed-Won
+ORD0242,9/29/24,North,Rubber,RubberOne Testing Labs,Hardness & Abrasion Tester,Testing Instrument,4,295000,1180000,Sneha,Referral,Closed-Lost
+ORD0243,12/26/24,West,Composites,AeroComposite Labs,Swelling Tester,Testing Instrument,4,175000,700000,Rahul,Partner Reseller,Closed-Won
+ORD0244,9/22/24,North,Rubber,RubberOne Testing Labs,Tensile Sample Cutter,Accessories,5,18000,90000,Aditya,Website Lead,Closed-Won
+ORD0245,1/15/24,West,Allied Industries,ProtoTest Innovations,Compression Moulding Press,Accessories,2,125000,250000,Aditya,Referral,Closed-Lost
+ORD0246,10/4/24,North,Composites,FibreMatrix Composites,Hardness & Abrasion Tester,Testing Instrument,2,295000,590000,Aditya,Cold Email,Closed-Lost
+ORD0247,2/1/25,North,Rubber,FlexRubber Corp,HDX Tensile Tester,Testing Instrument,5,450000,2250000,Sneha,LinkedIn,Closed-Won
+ORD0248,6/11/24,West,Allied Industries,ProtoTest Innovations,Indentation Hardness Tester,Accessories,2,22000,44000,Meera,Partner Reseller,Closed-Lost
+ORD0249,5/11/24,North,Allied Industries,Precision Test Labs,HDX Tensile Tester,Testing Instrument,4,450000,1800000,Aditya,Referral,Closed-Won
+ORD0250,11/22/24,South,Polymers,PolyMould Innovations,Izod Impact Tester,Testing Instrument,5,225000,1125000,Sneha,Cold Call,Closed-Lost
+ORD0251,10/10/24,West,Polymers,PolyTech India Pvt Ltd,Tensile Sample Cutter,Accessories,3,18000,54000,Rahul,Cold Call,Closed-Won
+ORD0252,8/24/24,East,Polymers,PolyTech India Pvt Ltd,Indentation Hardness Tester,Accessories,5,22000,110000,Meera,Referral,Closed-Won
+ORD0253,3/21/24,West,Rubber,RubberOne Testing Labs,Differential Viscometer,Testing Instrument,3,330000,990000,Sneha,Partner Reseller,Closed-Lost
+ORD0254,6/29/24,South,Composites,FibreMatrix Composites,Compression Moulding Press,Accessories,3,125000,375000,Aditya,Cold Call,Closed-Won
+ORD0255,1/8/24,North,Composites,NextGen Composite Solutions,UV Accelerated Weathering Chamber,Testing Instrument,5,560000,2800000,Rahul,Cold Email,Closed-Won
+ORD0256,8/3/24,East,Rubber,FlexRubber Corp,Indentation Hardness Tester,Accessories,2,22000,44000,Meera,Partner Reseller,Closed-Won
+ORD0257,10/8/24,North,Polymers,Advanced Polymers Ltd,Izod Impact Tester,Testing Instrument,3,225000,675000,Aditya,Cold Call,Closed-Won
+ORD0258,5/10/24,South,Polymers,Advanced Polymers Ltd,Flexural Testing Machine,Testing Instrument,2,420000,840000,Sneha,Cold Email,Closed-Won
+ORD0259,2/22/24,South,Rubber,RubberFlex Industries,Capillary Rheometer,Testing Instrument,4,460000,1840000,Aditya,Trade Exhibition,Closed-Lost
+ORD0260,1/13/24,South,Polymers,PolyTech India Pvt Ltd,Izod Impact Tester,Testing Instrument,1,225000,225000,Sneha,Cold Call,Closed-Lost
+ORD0261,12/9/24,North,Allied Industries,Industrial Material Systems,Indentation Hardness Tester,Accessories,2,22000,44000,Meera,Partner Reseller,Closed-Won
+ORD0262,1/17/24,East,Allied Industries,Industrial Material Systems,Swelling Tester,Testing Instrument,5,175000,875000,Aditya,Partner Reseller,Closed-Lost
+ORD0263,1/29/24,South,Allied Industries,ProtoTest Innovations,Capillary Rheometer,Testing Instrument,1,460000,460000,Aditya,Cold Call,Closed-Won
+ORD0264,5/5/24,East,Rubber,RubChem Pvt Ltd,Hardness & Abrasion Tester,Testing Instrument,2,295000,590000,Aditya,Referral,Closed-Won
+ORD0265,6/4/24,South,Rubber,RubChem Pvt Ltd,HDX Tensile Tester,Testing Instrument,2,450000,900000,Meera,Website Lead,Closed-Won
+ORD0266,1/11/25,North,Polymers,PolyTech India Pvt Ltd,Hardness & Abrasion Tester,Testing Instrument,3,295000,885000,Rahul,Trade Exhibition,Closed-Lost
+ORD0267,1/11/24,East,Composites,AeroComposite Labs,DSC Thermal Analyzer,Testing Instrument,5,190000,950000,Aditya,Partner Reseller,Closed-Won
+ORD0268,2/27/24,South,Allied Industries,ProtoTest Innovations,Tensile Sample Cutter,Accessories,3,18000,54000,Meera,Referral,Closed-Won
+ORD0269,3/25/24,East,Polymers,BrightPoly Solutions,MFI Tester,Testing Instrument,4,380000,1520000,Aditya,Website Lead,Closed-Lost
+ORD0270,3/27/24,North,Polymers,PolyMould Innovations,MFI Tester,Testing Instrument,5,380000,1900000,Meera,LinkedIn,Closed-Won
+ORD0271,5/19/24,North,Composites,FibreMatrix Composites,DSC Thermal Analyzer,Testing Instrument,4,190000,760000,Sneha,Website Lead,Closed-Won
+ORD0272,3/19/24,South,Composites,NextGen Composite Solutions,Differential Viscometer,Testing Instrument,3,330000,990000,Rahul,Partner Reseller,Closed-Lost
+ORD0273,11/16/24,North,Allied Industries,Precision Test Labs,HDX Tensile Tester,Testing Instrument,4,450000,1800000,Rahul,Partner Reseller,Closed-Lost
+ORD0274,1/17/24,South,Rubber,RubberFlex Industries,Indentation Hardness Tester,Accessories,3,22000,66000,Meera,Trade Exhibition,Closed-Won
+ORD0275,6/29/24,West,Polymers,PolyMould Innovations,Swelling Tester,Testing Instrument,1,175000,175000,Sneha,LinkedIn,Closed-Lost
+ORD0276,7/25/24,North,Polymers,PolyMould Innovations,Compression Moulding Press,Accessories,3,125000,375000,Rahul,LinkedIn,Closed-Won
+ORD0277,11/24/24,North,Polymers,PolyMould Innovations,Capillary Rheometer,Testing Instrument,4,460000,1840000,Sneha,Trade Exhibition,Closed-Won
+ORD0278,4/13/24,East,Composites,AeroComposite Labs,UV Accelerated Weathering Chamber,Testing Instrument,3,560000,1680000,Meera,LinkedIn,Closed-Won
+ORD0279,10/12/24,South,Polymers,BrightPoly Solutions,HDX Tensile Tester,Testing Instrument,2,450000,900000,Aditya,Cold Call,Closed-Won
+ORD0280,5/24/24,North,Allied Industries,Precision Test Labs,Compression Moulding Press,Accessories,4,125000,500000,Rahul,Referral,Closed-Won
+ORD0281,1/10/24,East,Polymers,BrightPoly Solutions,Digital Hardness Tester,Testing Instrument,4,75000,300000,Aditya,Website Lead,Closed-Won
+ORD0282,11/11/24,South,Polymers,PolyTech India Pvt Ltd,Tensile Sample Cutter,Accessories,3,18000,54000,Aditya,Cold Email,Closed-Won
+ORD0283,11/7/24,West,Rubber,RubChem Pvt Ltd,Indentation Hardness Tester,Accessories,4,22000,88000,Meera,Trade Exhibition,Closed-Lost
+ORD0284,3/13/24,South,Composites,FibreMatrix Composites,Compression Moulding Press,Accessories,2,125000,250000,Aditya,Referral,Closed-Lost
+ORD0285,6/25/24,North,Polymers,PolyTech India Pvt Ltd,MFI Tester,Testing Instrument,2,380000,760000,Sneha,Trade Exhibition,Closed-Lost
+ORD0286,1/4/24,East,Rubber,FlexRubber Corp,Digital Hardness Tester,Testing Instrument,1,75000,75000,Aditya,Trade Exhibition,Closed-Won
+ORD0287,10/17/24,South,Allied Industries,JIT Allied R&D Center,Indentation Hardness Tester,Accessories,1,22000,22000,Aditya,Website Lead,Closed-Lost
+ORD0288,4/12/24,West,Rubber,RubberFlex Industries,DSC Thermal Analyzer,Testing Instrument,4,190000,760000,Rahul,Partner Reseller,Closed-Won
+ORD0289,2/6/24,South,Polymers,PolyMould Innovations,Compression Moulding Press,Accessories,1,125000,125000,Aditya,Cold Email,Closed-Won
+ORD0290,4/3/24,South,Rubber,RubberOne Testing Labs,Swelling Tester,Testing Instrument,5,175000,875000,Aditya,Cold Email,Closed-Lost
+ORD0291,2/23/25,South,Polymers,PolyMould Innovations,HDX Tensile Tester,Testing Instrument,1,450000,450000,Meera,Cold Email,Closed-Lost
+ORD0292,2/12/25,South,Polymers,PolyTech India Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Sneha,Cold Call,Closed-Won
+ORD0293,9/15/24,South,Polymers,PolyMould Innovations,Micro Melt Flow Index Tester,Testing Instrument,1,310000,310000,Rahul,Trade Exhibition,Closed-Won
+ORD0294,1/22/24,South,Allied Industries,Precision Test Labs,MFI Tester,Testing Instrument,5,380000,1900000,Aditya,Referral,Closed-Lost
+ORD0295,2/23/24,West,Polymers,Advanced Polymers Ltd,HDX Tensile Tester,Testing Instrument,1,450000,450000,Rahul,Website Lead,Closed-Lost
+ORD0296,7/9/24,South,Allied Industries,JIT Allied R&D Center,Tensile Sample Cutter,Accessories,1,18000,18000,Aditya,Cold Call,Closed-Lost
+ORD0297,1/25/25,East,Rubber,RubberOne Testing Labs,Hardness & Abrasion Tester,Testing Instrument,1,295000,295000,Aditya,Partner Reseller,Closed-Lost
+ORD0298,10/9/24,East,Rubber,RubberOne Testing Labs,Flexural Testing Machine,Testing Instrument,4,420000,1680000,Rahul,Cold Email,Closed-Won
+ORD0299,3/15/24,East,Composites,AeroComposite Labs,UV Accelerated Weathering Chamber,Testing Instrument,2,560000,1120000,Rahul,Cold Email,Closed-Lost
+ORD0300,11/1/24,North,Rubber,FlexRubber Corp,Digital Hardness Tester,Testing Instrument,5,75000,375000,Meera,Cold Email,Closed-Won
+ORD0301,1/10/25,South,Rubber,FlexRubber Corp,HDX Tensile Tester,Testing Instrument,1,450000,450000,Sneha,LinkedIn,Closed-Won
+ORD0302,8/3/24,East,Allied Industries,ProtoTest Innovations,Flexural Testing Machine,Testing Instrument,4,420000,1680000,Meera,Partner Reseller,Closed-Won
+ORD0303,5/24/24,North,Rubber,RubChem Pvt Ltd,Swelling Tester,Testing Instrument,5,175000,875000,Aditya,LinkedIn,Closed-Won
+ORD0304,1/20/25,West,Polymers,BrightPoly Solutions,Micro Melt Flow Index Tester,Testing Instrument,5,310000,1550000,Aditya,Referral,Closed-Lost
+ORD0305,9/7/24,North,Composites,NextGen Composite Solutions,Digital Hardness Tester,Testing Instrument,5,75000,375000,Rahul,Cold Call,Closed-Won
+ORD0306,2/17/24,South,Rubber,RubberFlex Industries,HDX Tensile Tester,Testing Instrument,2,450000,900000,Sneha,Partner Reseller,Closed-Won
+ORD0307,9/14/24,North,Polymers,PolyMould Innovations,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Rahul,Referral,Closed-Lost
+ORD0308,5/20/24,North,Polymers,PolyTech India Pvt Ltd,UV Accelerated Weathering Chamber,Testing Instrument,4,560000,2240000,Meera,Cold Email,Closed-Lost
+ORD0309,10/18/24,North,Allied Industries,Industrial Material Systems,Izod Impact Tester,Testing Instrument,2,225000,450000,Rahul,Trade Exhibition,Closed-Lost
+ORD0310,12/14/24,North,Rubber,RubberFlex Industries,Swelling Tester,Testing Instrument,1,175000,175000,Rahul,Cold Email,Closed-Won
+ORD0311,1/6/25,East,Allied Industries,JIT Allied R&D Center,Flexural Testing Machine,Testing Instrument,4,420000,1680000,Rahul,LinkedIn,Closed-Won
+ORD0312,5/13/24,East,Rubber,RubberFlex Industries,MFI Tester,Testing Instrument,3,380000,1140000,Meera,Referral,Closed-Won
+ORD0313,6/11/24,South,Rubber,FlexRubber Corp,DSC Thermal Analyzer,Testing Instrument,5,190000,950000,Meera,Website Lead,Closed-Won
+ORD0314,2/9/25,North,Composites,NextGen Composite Solutions,Micro Melt Flow Index Tester,Testing Instrument,4,310000,1240000,Aditya,Partner Reseller,Closed-Won
+ORD0315,5/10/24,South,Rubber,FlexRubber Corp,Indentation Hardness Tester,Accessories,3,22000,66000,Rahul,Referral,Closed-Won
+ORD0316,10/9/24,East,Composites,AeroComposite Labs,Digital Hardness Tester,Testing Instrument,4,75000,300000,Aditya,Referral,Closed-Won
+ORD0317,9/8/24,South,Polymers,Advanced Polymers Ltd,MFI Tester,Testing Instrument,4,380000,1520000,Rahul,Cold Call,Closed-Won
+ORD0318,7/21/24,South,Composites,FibreMatrix Composites,Capillary Rheometer,Testing Instrument,5,460000,2300000,Rahul,Cold Call,Closed-Won
+ORD0319,7/7/24,South,Rubber,RubberFlex Industries,Indentation Hardness Tester,Accessories,2,22000,44000,Meera,Partner Reseller,Closed-Won
+ORD0320,2/13/25,South,Polymers,Advanced Polymers Ltd,Indentation Hardness Tester,Accessories,2,22000,44000,Aditya,Website Lead,Closed-Lost
+ORD0321,9/30/24,East,Allied Industries,Industrial Material Systems,Tensile Sample Cutter,Accessories,2,18000,36000,Aditya,Trade Exhibition,Closed-Lost
+ORD0322,4/18/24,South,Rubber,RubberOne Testing Labs,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Aditya,Cold Email,Closed-Won
+ORD0323,7/21/24,West,Rubber,RubberFlex Industries,UV Accelerated Weathering Chamber,Testing Instrument,5,560000,2800000,Sneha,Cold Email,Closed-Won
+ORD0324,1/27/24,East,Allied Industries,JIT Allied R&D Center,Digital Hardness Tester,Testing Instrument,4,75000,300000,Rahul,Referral,Closed-Lost
+ORD0325,10/25/24,West,Polymers,PolyTech India Pvt Ltd,Swelling Tester,Testing Instrument,4,175000,700000,Rahul,Referral,Closed-Lost
+ORD0326,3/21/24,East,Allied Industries,ProtoTest Innovations,Compression Moulding Press,Accessories,2,125000,250000,Sneha,LinkedIn,Closed-Won
+ORD0327,2/14/24,South,Rubber,FlexRubber Corp,Digital Hardness Tester,Testing Instrument,3,75000,225000,Sneha,Partner Reseller,Closed-Won
+ORD0328,9/13/24,East,Allied Industries,Industrial Material Systems,Micro Melt Flow Index Tester,Testing Instrument,1,310000,310000,Rahul,Trade Exhibition,Closed-Won
+ORD0329,3/22/24,West,Polymers,BrightPoly Solutions,Tensile Sample Cutter,Accessories,1,18000,18000,Aditya,Cold Email,Closed-Lost
+ORD0330,7/1/24,West,Rubber,RubChem Pvt Ltd,Differential Viscometer,Testing Instrument,1,330000,330000,Sneha,Trade Exhibition,Closed-Won
+ORD0331,1/10/25,West,Allied Industries,ProtoTest Innovations,MFI Tester,Testing Instrument,1,380000,380000,Sneha,Cold Email,Closed-Lost
+ORD0332,4/7/24,East,Allied Industries,ProtoTest Innovations,DSC Thermal Analyzer,Testing Instrument,3,190000,570000,Sneha,Referral,Closed-Lost
+ORD0333,2/22/24,East,Rubber,RubberFlex Industries,MFI Tester,Testing Instrument,1,380000,380000,Rahul,Cold Call,Closed-Won
+ORD0334,1/2/24,North,Composites,CompEdge Materials Pvt Ltd,Izod Impact Tester,Testing Instrument,2,225000,450000,Rahul,Website Lead,Closed-Won
+ORD0335,12/6/24,North,Allied Industries,ProtoTest Innovations,Differential Viscometer,Testing Instrument,4,330000,1320000,Aditya,Trade Exhibition,Closed-Won
+ORD0336,11/10/24,West,Composites,NextGen Composite Solutions,Micro Melt Flow Index Tester,Testing Instrument,2,310000,620000,Meera,Trade Exhibition,Closed-Lost
+ORD0337,5/6/24,East,Rubber,RubChem Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Sneha,Cold Email,Closed-Lost
+ORD0338,8/14/24,East,Polymers,PolyTech India Pvt Ltd,Izod Impact Tester,Testing Instrument,1,225000,225000,Meera,Cold Call,Closed-Lost
+ORD0339,2/16/25,East,Rubber,RubChem Pvt Ltd,Izod Impact Tester,Testing Instrument,5,225000,1125000,Rahul,Partner Reseller,Closed-Won
+ORD0340,8/26/24,South,Allied Industries,ProtoTest Innovations,MFI Tester,Testing Instrument,1,380000,380000,Rahul,Referral,Closed-Lost
+ORD0341,3/22/24,North,Allied Industries,JIT Allied R&D Center,Flexural Testing Machine,Testing Instrument,2,420000,840000,Meera,Trade Exhibition,Closed-Lost
+ORD0342,7/23/24,East,Polymers,Advanced Polymers Ltd,Micro Melt Flow Index Tester,Testing Instrument,5,310000,1550000,Aditya,Website Lead,Closed-Lost
+ORD0343,4/27/24,North,Rubber,FlexRubber Corp,Capillary Rheometer,Testing Instrument,2,460000,920000,Sneha,Trade Exhibition,Closed-Won
+ORD0344,8/25/24,North,Allied Industries,Precision Test Labs,MFI Tester,Testing Instrument,4,380000,1520000,Meera,Referral,Closed-Won
+ORD0345,2/15/24,North,Allied Industries,ProtoTest Innovations,Izod Impact Tester,Testing Instrument,4,225000,900000,Meera,Cold Call,Closed-Lost
+ORD0346,1/11/25,North,Polymers,Advanced Polymers Ltd,Differential Viscometer,Testing Instrument,3,330000,990000,Meera,Cold Call,Closed-Won
+ORD0347,6/16/24,South,Rubber,RubChem Pvt Ltd,Swelling Tester,Testing Instrument,5,175000,875000,Meera,Website Lead,Closed-Lost
+ORD0348,1/24/25,West,Allied Industries,JIT Allied R&D Center,Swelling Tester,Testing Instrument,3,175000,525000,Rahul,Website Lead,Closed-Won
+ORD0349,1/21/24,South,Allied Industries,JIT Allied R&D Center,Tensile Sample Cutter,Accessories,2,18000,36000,Sneha,Website Lead,Closed-Lost
+ORD0350,1/30/25,South,Rubber,RubChem Pvt Ltd,Indentation Hardness Tester,Accessories,5,22000,110000,Meera,Trade Exhibition,Closed-Won
+ORD0351,7/22/24,South,Composites,CompEdge Materials Pvt Ltd,Digital Hardness Tester,Testing Instrument,4,75000,300000,Rahul,LinkedIn,Closed-Lost
+ORD0352,7/28/24,West,Composites,CompEdge Materials Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Rahul,Referral,Closed-Lost
+ORD0353,1/5/25,West,Allied Industries,Industrial Material Systems,MFI Tester,Testing Instrument,4,380000,1520000,Rahul,Cold Call,Closed-Won
+ORD0354,10/2/24,East,Allied Industries,Precision Test Labs,Micro Melt Flow Index Tester,Testing Instrument,5,310000,1550000,Meera,Cold Email,Closed-Lost
+ORD0355,3/4/24,South,Composites,AeroComposite Labs,MFI Tester,Testing Instrument,1,380000,380000,Aditya,Cold Call,Closed-Won
+ORD0356,4/15/24,North,Composites,AeroComposite Labs,HDX Tensile Tester,Testing Instrument,2,450000,900000,Aditya,Cold Email,Closed-Lost
+ORD0357,3/30/24,East,Allied Industries,JIT Allied R&D Center,DSC Thermal Analyzer,Testing Instrument,1,190000,190000,Aditya,Trade Exhibition,Closed-Lost
+ORD0358,1/16/25,East,Allied Industries,Industrial Material Systems,MFI Tester,Testing Instrument,2,380000,760000,Rahul,Referral,Closed-Won
+ORD0359,4/17/24,East,Rubber,RubChem Pvt Ltd,UV Accelerated Weathering Chamber,Testing Instrument,4,560000,2240000,Aditya,Cold Call,Closed-Lost
+ORD0360,9/25/24,South,Rubber,RubChem Pvt Ltd,Tensile Sample Cutter,Accessories,5,18000,90000,Meera,Trade Exhibition,Closed-Lost
+ORD0361,4/2/24,East,Allied Industries,ProtoTest Innovations,Izod Impact Tester,Testing Instrument,4,225000,900000,Aditya,Cold Call,Closed-Lost
+ORD0362,9/3/24,East,Allied Industries,Industrial Material Systems,Hardness & Abrasion Tester,Testing Instrument,5,295000,1475000,Meera,Cold Call,Closed-Won
+ORD0363,12/29/24,North,Composites,NextGen Composite Solutions,UV Accelerated Weathering Chamber,Testing Instrument,2,560000,1120000,Meera,Trade Exhibition,Closed-Won
+ORD0364,11/2/24,West,Allied Industries,Precision Test Labs,MFI Tester,Testing Instrument,3,380000,1140000,Aditya,Website Lead,Closed-Lost
+ORD0365,10/10/24,North,Rubber,RubberFlex Industries,Flexural Testing Machine,Testing Instrument,3,420000,1260000,Rahul,Cold Call,Closed-Lost
+ORD0366,7/7/24,East,Polymers,PolyMould Innovations,Digital Hardness Tester,Testing Instrument,1,75000,75000,Aditya,Partner Reseller,Closed-Won
+ORD0367,2/12/24,East,Polymers,BrightPoly Solutions,Indentation Hardness Tester,Accessories,3,22000,66000,Sneha,Partner Reseller,Closed-Won
+ORD0368,7/4/24,North,Polymers,PolyTech India Pvt Ltd,Hardness & Abrasion Tester,Testing Instrument,5,295000,1475000,Sneha,LinkedIn,Closed-Lost
+ORD0369,3/24/24,North,Composites,FibreMatrix Composites,MFI Tester,Testing Instrument,1,380000,380000,Sneha,Referral,Closed-Lost
+ORD0370,11/11/24,South,Rubber,RubChem Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,1,310000,310000,Sneha,Website Lead,Closed-Lost
+ORD0371,2/13/25,West,Composites,NextGen Composite Solutions,Digital Hardness Tester,Testing Instrument,5,75000,375000,Aditya,Trade Exhibition,Closed-Lost
+ORD0372,9/27/24,North,Allied Industries,JIT Allied R&D Center,Compression Moulding Press,Accessories,3,125000,375000,Meera,Cold Call,Closed-Lost
+ORD0373,9/2/24,South,Composites,AeroComposite Labs,Izod Impact Tester,Testing Instrument,1,225000,225000,Sneha,LinkedIn,Closed-Lost
+ORD0374,4/30/24,West,Polymers,Advanced Polymers Ltd,Compression Moulding Press,Accessories,3,125000,375000,Meera,Cold Email,Closed-Lost
+ORD0375,6/19/24,East,Polymers,Advanced Polymers Ltd,Flexural Testing Machine,Testing Instrument,3,420000,1260000,Sneha,Referral,Closed-Lost
+ORD0376,5/2/24,North,Allied Industries,JIT Allied R&D Center,Indentation Hardness Tester,Accessories,2,22000,44000,Rahul,Cold Call,Closed-Lost
+ORD0377,10/12/24,North,Polymers,BrightPoly Solutions,Hardness & Abrasion Tester,Testing Instrument,5,295000,1475000,Rahul,Trade Exhibition,Closed-Won
+ORD0378,4/12/24,West,Composites,NextGen Composite Solutions,Digital Hardness Tester,Testing Instrument,3,75000,225000,Aditya,Cold Call,Closed-Lost
+ORD0379,6/30/24,North,Rubber,RubChem Pvt Ltd,Swelling Tester,Testing Instrument,3,175000,525000,Sneha,Cold Call,Closed-Won
+ORD0380,3/9/24,North,Polymers,PolyTech India Pvt Ltd,Compression Moulding Press,Accessories,3,125000,375000,Aditya,Cold Call,Closed-Won
+ORD0381,1/17/25,East,Allied Industries,JIT Allied R&D Center,Swelling Tester,Testing Instrument,1,175000,175000,Sneha,Referral,Closed-Lost
+ORD0382,7/15/24,North,Rubber,RubChem Pvt Ltd,Izod Impact Tester,Testing Instrument,1,225000,225000,Rahul,Trade Exhibition,Closed-Lost
+ORD0383,2/14/25,West,Rubber,RubChem Pvt Ltd,Differential Viscometer,Testing Instrument,3,330000,990000,Aditya,Trade Exhibition,Closed-Won
+ORD0384,5/13/24,South,Allied Industries,ProtoTest Innovations,HDX Tensile Tester,Testing Instrument,4,450000,1800000,Rahul,Cold Call,Closed-Won
+ORD0385,1/6/24,South,Composites,NextGen Composite Solutions,Swelling Tester,Testing Instrument,1,175000,175000,Sneha,LinkedIn,Closed-Lost
+ORD0386,12/24/24,West,Composites,FibreMatrix Composites,HDX Tensile Tester,Testing Instrument,5,450000,2250000,Sneha,Trade Exhibition,Closed-Won
+ORD0387,1/8/24,North,Allied Industries,ProtoTest Innovations,Tensile Sample Cutter,Accessories,2,18000,36000,Sneha,Partner Reseller,Closed-Won
+ORD0388,11/8/24,West,Polymers,PolyTech India Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,3,190000,570000,Rahul,Website Lead,Closed-Lost
+ORD0389,1/25/25,South,Allied Industries,Industrial Material Systems,Indentation Hardness Tester,Accessories,4,22000,88000,Meera,Website Lead,Closed-Lost
+ORD0390,9/2/24,North,Allied Industries,Industrial Material Systems,Swelling Tester,Testing Instrument,1,175000,175000,Meera,Cold Email,Closed-Lost
+ORD0391,3/24/24,West,Rubber,RubberOne Testing Labs,Differential Viscometer,Testing Instrument,3,330000,990000,Rahul,Referral,Closed-Won
+ORD0392,2/12/24,North,Allied Industries,Precision Test Labs,DSC Thermal Analyzer,Testing Instrument,2,190000,380000,Sneha,Referral,Closed-Won
+ORD0393,1/16/25,West,Rubber,RubberFlex Industries,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Rahul,Trade Exhibition,Closed-Lost
+ORD0394,9/24/24,North,Allied Industries,JIT Allied R&D Center,Digital Hardness Tester,Testing Instrument,3,75000,225000,Sneha,Cold Call,Closed-Won
+ORD0395,9/29/24,South,Rubber,RubberFlex Industries,HDX Tensile Tester,Testing Instrument,3,450000,1350000,Rahul,Referral,Closed-Lost
+ORD0396,11/23/24,South,Allied Industries,Industrial Material Systems,HDX Tensile Tester,Testing Instrument,1,450000,450000,Rahul,Website Lead,Closed-Lost
+ORD0397,11/30/24,North,Composites,FibreMatrix Composites,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Aditya,Cold Email,Closed-Lost
+ORD0398,11/8/24,East,Polymers,PolyTech India Pvt Ltd,Swelling Tester,Testing Instrument,1,175000,175000,Sneha,Cold Email,Closed-Won
+ORD0399,9/10/24,West,Polymers,PolyMould Innovations,Compression Moulding Press,Accessories,5,125000,625000,Aditya,LinkedIn,Closed-Lost
+ORD0400,7/9/24,East,Polymers,PolyTech India Pvt Ltd,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Sneha,Partner Reseller,Closed-Won
+ORD0401,5/1/24,South,Composites,CompEdge Materials Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,2,310000,620000,Meera,Referral,Closed-Lost
+ORD0402,12/13/24,North,Allied Industries,Precision Test Labs,HDX Tensile Tester,Testing Instrument,4,450000,1800000,Rahul,Referral,Closed-Lost
+ORD0403,7/11/24,East,Polymers,Advanced Polymers Ltd,Tensile Sample Cutter,Accessories,2,18000,36000,Aditya,Cold Email,Closed-Won
+ORD0404,12/24/24,South,Allied Industries,Precision Test Labs,Compression Moulding Press,Accessories,3,125000,375000,Sneha,Trade Exhibition,Closed-Won
+ORD0405,1/7/25,South,Composites,NextGen Composite Solutions,Digital Hardness Tester,Testing Instrument,3,75000,225000,Meera,LinkedIn,Closed-Won
+ORD0406,5/29/24,East,Allied Industries,Precision Test Labs,Indentation Hardness Tester,Accessories,4,22000,88000,Rahul,Referral,Closed-Lost
+ORD0407,2/18/25,East,Polymers,PolyMould Innovations,Digital Hardness Tester,Testing Instrument,2,75000,150000,Aditya,Cold Call,Closed-Won
+ORD0408,10/2/24,South,Allied Industries,JIT Allied R&D Center,Izod Impact Tester,Testing Instrument,5,225000,1125000,Aditya,Referral,Closed-Won
+ORD0409,11/22/24,South,Allied Industries,ProtoTest Innovations,UV Accelerated Weathering Chamber,Testing Instrument,1,560000,560000,Rahul,LinkedIn,Closed-Won
+ORD0410,8/10/24,West,Composites,AeroComposite Labs,Digital Hardness Tester,Testing Instrument,5,75000,375000,Sneha,Referral,Closed-Lost
+ORD0411,4/10/24,South,Rubber,RubberFlex Industries,Flexural Testing Machine,Testing Instrument,2,420000,840000,Aditya,Website Lead,Closed-Lost
+ORD0412,8/10/24,North,Polymers,PolyTech India Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,1,310000,310000,Aditya,Referral,Closed-Lost
+ORD0413,5/19/24,South,Rubber,FlexRubber Corp,Indentation Hardness Tester,Accessories,5,22000,110000,Meera,LinkedIn,Closed-Lost
+ORD0414,9/10/24,North,Rubber,RubChem Pvt Ltd,MFI Tester,Testing Instrument,5,380000,1900000,Rahul,Partner Reseller,Closed-Won
+ORD0415,4/14/24,West,Composites,CompEdge Materials Pvt Ltd,HDX Tensile Tester,Testing Instrument,1,450000,450000,Aditya,Cold Email,Closed-Lost
+ORD0416,5/5/24,North,Rubber,RubberFlex Industries,Compression Moulding Press,Accessories,3,125000,375000,Aditya,LinkedIn,Closed-Won
+ORD0417,7/24/24,West,Rubber,FlexRubber Corp,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Aditya,Referral,Closed-Lost
+ORD0418,2/29/24,East,Polymers,PolyTech India Pvt Ltd,UV Accelerated Weathering Chamber,Testing Instrument,2,560000,1120000,Meera,Trade Exhibition,Closed-Won
+ORD0419,12/4/24,North,Polymers,PolyTech India Pvt Ltd,Indentation Hardness Tester,Accessories,2,22000,44000,Rahul,Trade Exhibition,Closed-Won
+ORD0420,4/20/24,North,Rubber,RubChem Pvt Ltd,HDX Tensile Tester,Testing Instrument,2,450000,900000,Rahul,Trade Exhibition,Closed-Lost
+ORD0421,6/2/24,East,Rubber,FlexRubber Corp,UV Accelerated Weathering Chamber,Testing Instrument,1,560000,560000,Meera,Partner Reseller,Closed-Lost
+ORD0422,1/31/24,West,Allied Industries,ProtoTest Innovations,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Meera,Cold Email,Closed-Won
+ORD0423,1/10/25,East,Polymers,PolyTech India Pvt Ltd,Differential Viscometer,Testing Instrument,3,330000,990000,Aditya,Cold Call,Closed-Lost
+ORD0424,1/13/24,North,Composites,FibreMatrix Composites,Hardness & Abrasion Tester,Testing Instrument,3,295000,885000,Aditya,LinkedIn,Closed-Won
+ORD0425,4/5/24,West,Polymers,PolyTech India Pvt Ltd,Compression Moulding Press,Accessories,2,125000,250000,Sneha,LinkedIn,Closed-Won
+ORD0426,3/17/24,West,Allied Industries,ProtoTest Innovations,Compression Moulding Press,Accessories,2,125000,250000,Rahul,Trade Exhibition,Closed-Won
+ORD0427,12/27/24,South,Composites,AeroComposite Labs,Tensile Sample Cutter,Accessories,4,18000,72000,Rahul,Trade Exhibition,Closed-Won
+ORD0428,1/12/24,East,Allied Industries,Precision Test Labs,Micro Melt Flow Index Tester,Testing Instrument,4,310000,1240000,Rahul,Trade Exhibition,Closed-Won
+ORD0429,7/3/24,West,Allied Industries,Precision Test Labs,Tensile Sample Cutter,Accessories,5,18000,90000,Sneha,LinkedIn,Closed-Lost
+ORD0430,5/19/24,East,Composites,FibreMatrix Composites,Digital Hardness Tester,Testing Instrument,5,75000,375000,Sneha,LinkedIn,Closed-Lost
+ORD0431,5/12/24,South,Rubber,RubChem Pvt Ltd,Flexural Testing Machine,Testing Instrument,4,420000,1680000,Meera,Cold Call,Closed-Won
+ORD0432,4/13/24,North,Allied Industries,Industrial Material Systems,Tensile Sample Cutter,Accessories,2,18000,36000,Rahul,Cold Call,Closed-Won
+ORD0433,10/15/24,South,Rubber,RubberOne Testing Labs,Digital Hardness Tester,Testing Instrument,3,75000,225000,Sneha,Cold Call,Closed-Lost
+ORD0434,3/24/24,West,Polymers,Advanced Polymers Ltd,Differential Viscometer,Testing Instrument,4,330000,1320000,Aditya,Trade Exhibition,Closed-Won
+ORD0435,2/25/25,East,Rubber,FlexRubber Corp,Capillary Rheometer,Testing Instrument,1,460000,460000,Rahul,LinkedIn,Closed-Lost
+ORD0436,12/17/24,East,Rubber,FlexRubber Corp,Flexural Testing Machine,Testing Instrument,3,420000,1260000,Sneha,LinkedIn,Closed-Won
+ORD0437,2/16/24,West,Polymers,BrightPoly Solutions,DSC Thermal Analyzer,Testing Instrument,3,190000,570000,Meera,Cold Call,Closed-Won
+ORD0438,9/27/24,North,Allied Industries,Precision Test Labs,Compression Moulding Press,Accessories,2,125000,250000,Rahul,LinkedIn,Closed-Won
+ORD0439,11/27/24,West,Composites,AeroComposite Labs,Swelling Tester,Testing Instrument,3,175000,525000,Sneha,Website Lead,Closed-Won
+ORD0440,1/5/24,North,Composites,NextGen Composite Solutions,Capillary Rheometer,Testing Instrument,3,460000,1380000,Sneha,Cold Email,Closed-Lost
+ORD0441,8/11/24,North,Rubber,RubChem Pvt Ltd,Compression Moulding Press,Accessories,1,125000,125000,Rahul,Cold Call,Closed-Lost
+ORD0442,7/31/24,South,Rubber,FlexRubber Corp,Indentation Hardness Tester,Accessories,1,22000,22000,Aditya,Cold Call,Closed-Lost
+ORD0443,1/27/24,East,Allied Industries,ProtoTest Innovations,Hardness & Abrasion Tester,Testing Instrument,1,295000,295000,Meera,Partner Reseller,Closed-Won
+ORD0444,1/22/24,West,Rubber,RubChem Pvt Ltd,HDX Tensile Tester,Testing Instrument,3,450000,1350000,Aditya,Cold Email,Closed-Won
+ORD0445,3/17/24,North,Polymers,Advanced Polymers Ltd,Flexural Testing Machine,Testing Instrument,1,420000,420000,Aditya,Partner Reseller,Closed-Lost
+ORD0446,1/26/24,South,Polymers,BrightPoly Solutions,UV Accelerated Weathering Chamber,Testing Instrument,5,560000,2800000,Sneha,Cold Call,Closed-Won
+ORD0447,10/17/24,West,Polymers,Advanced Polymers Ltd,Compression Moulding Press,Accessories,2,125000,250000,Aditya,Partner Reseller,Closed-Won
+ORD0448,5/22/24,North,Polymers,PolyMould Innovations,Indentation Hardness Tester,Accessories,3,22000,66000,Rahul,Trade Exhibition,Closed-Won
+ORD0449,6/23/24,East,Rubber,RubberFlex Industries,Compression Moulding Press,Accessories,3,125000,375000,Sneha,Partner Reseller,Closed-Lost
+ORD0450,1/5/24,South,Rubber,FlexRubber Corp,Flexural Testing Machine,Testing Instrument,3,420000,1260000,Meera,Website Lead,Closed-Lost
+ORD0451,8/8/24,North,Polymers,PolyMould Innovations,Differential Viscometer,Testing Instrument,5,330000,1650000,Rahul,LinkedIn,Closed-Won
+ORD0452,3/25/24,North,Allied Industries,Industrial Material Systems,Izod Impact Tester,Testing Instrument,2,225000,450000,Sneha,Cold Call,Closed-Won
+ORD0453,10/24/24,West,Composites,FibreMatrix Composites,UV Accelerated Weathering Chamber,Testing Instrument,3,560000,1680000,Sneha,Trade Exhibition,Closed-Won
+ORD0454,2/4/25,South,Rubber,RubChem Pvt Ltd,Izod Impact Tester,Testing Instrument,5,225000,1125000,Aditya,Trade Exhibition,Closed-Lost
+ORD0455,7/10/24,West,Composites,CompEdge Materials Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,5,190000,950000,Aditya,LinkedIn,Closed-Lost
+ORD0456,4/28/24,North,Polymers,BrightPoly Solutions,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Rahul,Partner Reseller,Closed-Lost
+ORD0457,7/17/24,South,Composites,FibreMatrix Composites,Swelling Tester,Testing Instrument,1,175000,175000,Meera,Referral,Closed-Lost
+ORD0458,3/22/24,East,Composites,NextGen Composite Solutions,Izod Impact Tester,Testing Instrument,2,225000,450000,Meera,Partner Reseller,Closed-Lost
+ORD0459,4/26/24,East,Allied Industries,JIT Allied R&D Center,Capillary Rheometer,Testing Instrument,4,460000,1840000,Rahul,Cold Call,Closed-Lost
+ORD0460,11/10/24,West,Polymers,PolyTech India Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,5,190000,950000,Aditya,Cold Email,Closed-Lost
+ORD0461,12/6/24,South,Polymers,Advanced Polymers Ltd,Differential Viscometer,Testing Instrument,5,330000,1650000,Rahul,Cold Call,Closed-Lost
+ORD0462,9/14/24,East,Composites,AeroComposite Labs,DSC Thermal Analyzer,Testing Instrument,2,190000,380000,Meera,Website Lead,Closed-Lost
+ORD0463,5/4/24,East,Polymers,PolyMould Innovations,Izod Impact Tester,Testing Instrument,2,225000,450000,Meera,Website Lead,Closed-Won
+ORD0464,9/6/24,South,Composites,CompEdge Materials Pvt Ltd,DSC Thermal Analyzer,Testing Instrument,2,190000,380000,Meera,LinkedIn,Closed-Won
+ORD0465,12/23/24,East,Composites,NextGen Composite Solutions,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Rahul,LinkedIn,Closed-Lost
+ORD0466,4/24/24,West,Rubber,RubberOne Testing Labs,UV Accelerated Weathering Chamber,Testing Instrument,4,560000,2240000,Rahul,Cold Email,Closed-Lost
+ORD0467,3/26/24,North,Polymers,PolyTech India Pvt Ltd,MFI Tester,Testing Instrument,2,380000,760000,Aditya,Trade Exhibition,Closed-Won
+ORD0468,2/29/24,West,Composites,NextGen Composite Solutions,DSC Thermal Analyzer,Testing Instrument,3,190000,570000,Rahul,LinkedIn,Closed-Won
+ORD0469,10/27/24,East,Polymers,PolyMould Innovations,Indentation Hardness Tester,Accessories,1,22000,22000,Meera,Cold Email,Closed-Lost
+ORD0470,12/29/24,West,Polymers,BrightPoly Solutions,Swelling Tester,Testing Instrument,5,175000,875000,Sneha,Referral,Closed-Lost
+ORD0471,11/23/24,South,Allied Industries,Industrial Material Systems,Flexural Testing Machine,Testing Instrument,2,420000,840000,Rahul,Trade Exhibition,Closed-Lost
+ORD0472,5/19/24,East,Polymers,Advanced Polymers Ltd,Flexural Testing Machine,Testing Instrument,3,420000,1260000,Sneha,Partner Reseller,Closed-Won
+ORD0473,1/1/25,West,Composites,FibreMatrix Composites,Swelling Tester,Testing Instrument,3,175000,525000,Aditya,Cold Call,Closed-Lost
+ORD0474,1/3/24,South,Rubber,RubberOne Testing Labs,MFI Tester,Testing Instrument,4,380000,1520000,Rahul,Cold Email,Closed-Lost
+ORD0475,7/29/24,North,Allied Industries,ProtoTest Innovations,DSC Thermal Analyzer,Testing Instrument,3,190000,570000,Meera,Cold Email,Closed-Lost
+ORD0476,5/28/24,South,Polymers,PolyTech India Pvt Ltd,Micro Melt Flow Index Tester,Testing Instrument,5,310000,1550000,Aditya,Partner Reseller,Closed-Lost
+ORD0477,12/29/24,South,Rubber,FlexRubber Corp,Micro Melt Flow Index Tester,Testing Instrument,1,310000,310000,Rahul,LinkedIn,Closed-Won
+ORD0478,7/3/24,South,Rubber,FlexRubber Corp,Hardness & Abrasion Tester,Testing Instrument,1,295000,295000,Meera,LinkedIn,Closed-Won
+ORD0479,7/19/24,East,Allied Industries,JIT Allied R&D Center,Swelling Tester,Testing Instrument,1,175000,175000,Rahul,Referral,Closed-Won
+ORD0480,8/3/24,East,Rubber,FlexRubber Corp,Digital Hardness Tester,Testing Instrument,4,75000,300000,Aditya,Website Lead,Closed-Lost
+ORD0481,2/23/25,North,Allied Industries,ProtoTest Innovations,Indentation Hardness Tester,Accessories,4,22000,88000,Meera,Cold Call,Closed-Won
+ORD0482,10/2/24,East,Polymers,PolyTech India Pvt Ltd,Flexural Testing Machine,Testing Instrument,2,420000,840000,Meera,Cold Email,Closed-Lost
+ORD0483,8/26/24,East,Composites,CompEdge Materials Pvt Ltd,Hardness & Abrasion Tester,Testing Instrument,1,295000,295000,Aditya,Trade Exhibition,Closed-Won
+ORD0484,4/25/24,East,Allied Industries,Industrial Material Systems,Micro Melt Flow Index Tester,Testing Instrument,3,310000,930000,Rahul,Website Lead,Closed-Won
+ORD0485,11/28/24,East,Composites,NextGen Composite Solutions,HDX Tensile Tester,Testing Instrument,2,450000,900000,Rahul,Cold Call,Closed-Lost
+ORD0486,10/12/24,South,Polymers,PolyMould Innovations,Hardness & Abrasion Tester,Testing Instrument,3,295000,885000,Aditya,Trade Exhibition,Closed-Lost
+ORD0487,6/6/24,South,Polymers,BrightPoly Solutions,HDX Tensile Tester,Testing Instrument,4,450000,1800000,Meera,Referral,Closed-Lost
+ORD0488,2/6/24,South,Polymers,PolyMould Innovations,MFI Tester,Testing Instrument,3,380000,1140000,Meera,LinkedIn,Closed-Lost
+ORD0489,5/27/24,East,Composites,AeroComposite Labs,Compression Moulding Press,Accessories,1,125000,125000,Aditya,Cold Call,Closed-Won
+ORD0490,11/15/24,West,Polymers,BrightPoly Solutions,Flexural Testing Machine,Testing Instrument,5,420000,2100000,Sneha,Cold Email,Closed-Lost
+ORD0491,12/18/24,West,Polymers,PolyMould Innovations,Micro Melt Flow Index Tester,Testing Instrument,1,310000,310000,Meera,LinkedIn,Closed-Lost
+ORD0492,9/13/24,West,Polymers,BrightPoly Solutions,Compression Moulding Press,Accessories,4,125000,500000,Rahul,Trade Exhibition,Closed-Won
+ORD0493,6/21/24,East,Allied Industries,Precision Test Labs,MFI Tester,Testing Instrument,5,380000,1900000,Rahul,Website Lead,Closed-Won
+ORD0494,6/22/24,South,Composites,NextGen Composite Solutions,Hardness & Abrasion Tester,Testing Instrument,2,295000,590000,Rahul,LinkedIn,Closed-Lost
+ORD0495,9/30/24,South,Allied Industries,ProtoTest Innovations,HDX Tensile Tester,Testing Instrument,2,450000,900000,Sneha,Partner Reseller,Closed-Won
+ORD0496,4/25/24,East,Allied Industries,JIT Allied R&D Center,DSC Thermal Analyzer,Testing Instrument,5,190000,950000,Sneha,Cold Email,Closed-Won
+ORD0497,4/21/24,North,Polymers,PolyMould Innovations,HDX Tensile Tester,Testing Instrument,4,450000,1800000,Meera,Trade Exhibition,Closed-Lost
+ORD0498,9/18/24,North,Composites,CompEdge Materials Pvt Ltd,MFI Tester,Testing Instrument,2,380000,760000,Rahul,Partner Reseller,Closed-Won
+ORD0499,11/2/24,South,Rubber,RubberFlex Industries,Indentation Hardness Tester,Accessories,5,22000,110000,Aditya,Partner Reseller,Closed-Won
+ORD0500,11/11/25,South,Composites,AeroComposite Labs,MFI Tester,Testing Instrument,2,380000,760000,Sneha,Cold Call,Closed-Won
+,,,,,,,,,,,,
+,,,,,,,,,,,,

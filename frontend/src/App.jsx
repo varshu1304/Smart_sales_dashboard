@@ -10,15 +10,15 @@ export default function App() {
   style={{
     textAlign: "center",
     marginBottom: "20px",
-    color: "#1e293b", // optional: dark slate color
+    color: "#1e293b", // dark slate color
   }}
 >
-  🌟 JITech — Smart Sales Dashboard
+   JITech — Smart Sales Dashboard
 </h1>
 
       </header>
 
-      <main className="p-6">
+      <main className="p-3">
         <Dashboard />
       </main>
     </div>

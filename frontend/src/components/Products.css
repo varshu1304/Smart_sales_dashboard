@@ -1,0 +1,151 @@
+/* -----------------------------
+   CONTAINER
+------------------------------ */
+.products-container {
+  padding: 15px 20px 30px;
+  margin-top: 0 !important;
+  background: #f8fafc;
+  animation: fadeIn 0.5s ease;
+}
+
+.products-container h2 {
+  font-size: 24px;
+  margin-bottom: 18px;
+  color: #1e293b;
+  letter-spacing: 0.4px;
+}
+
+/* -----------------------------
+   KPI CARDS
+------------------------------ */
+.kpi-section {
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.kpi-card {
+  flex: 1;
+  min-width: 240px;
+  background: linear-gradient(135deg, #ffffff, #f0f2ff);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  transition: all 0.28s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.10);
+}
+
+.kpi-card h3 {
+  font-size: 15px;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.kpi-card p {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+/* -----------------------------
+   CHART CARDS
+------------------------------ */
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.chart-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 18px 20px 25px;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+  transition: all 0.25s ease;
+  overflow: visible;
+}
+
+.chart-card:hover {
+  transform: scale(1.015);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.10);
+}
+
+.chart-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 14px;
+}
+
+/* -----------------------------
+   TABLE
+------------------------------ */
+.table-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 18px 22px;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+  overflow-x: auto;
+}
+
+.table-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 16px;
+}
+
+.table-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-card th,
+.table-card td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+  font-size: 15px;
+  color: #374151;
+}
+
+.table-card th {
+  background: #f1f5f9;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.table-card tr:hover {
+  background: #f9fafb;
+}
+
+/* -----------------------------
+   RESPONSIVE
+------------------------------ */
+@media (max-width: 768px) {
+  .kpi-section {
+    flex-direction: column;
+  }
+
+  .chart-card {
+    min-height: 330px;
+  }
+}
+
+/* -----------------------------
+   ANIMATION
+------------------------------ */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}

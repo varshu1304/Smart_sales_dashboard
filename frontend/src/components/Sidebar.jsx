@@ -1,64 +1,54 @@
 // src/components/Sidebar.jsx
-import React from "react";
-import { FaTachometerAlt, FaChartLine, FaFileAlt, FaCog } from "react-icons/fa";
+import React, { useState } from "react";
+import {
+  MdDashboard,
+  MdBarChart,
+  MdAssessment,
+  MdSettings,
+  MdShoppingBag,
+  MdMenu,
+} from "react-icons/md";
+import "./Sidebar.css";
 
-const Sidebar = ({ onSelect }) => {
+export default function Sidebar({ onSelect }) {
+  const [active, setActive] = useState("dashboard");
+  const [collapsed, setCollapsed] = useState(false);
+
+  const menu = [
+    { id: "dashboard", name: "Dashboard", icon: <MdDashboard /> },
+    { id: "products", name: "Products", icon: <MdShoppingBag /> },
+    { id: "orders", name: "Orders", icon: <MdAssessment /> },
+    { id: "performance", name: "Report", icon: <MdBarChart /> },
+    { id: "settings", name: "Settings", icon: <MdSettings /> },
+  ];
+
+  const handleSelect = (id) => {
+    setActive(id);
+    onSelect(id);
+  };
+
   return (
-    <div style={styles.sidebar}>
-      <h2 style={styles.logo}>SmartSales</h2>
-      <ul style={styles.menu}>
-        <li style={styles.item} onClick={() => onSelect("dashboard")}>
-          <FaTachometerAlt style={styles.icon} /> Dashboard
-        </li>
-        <li style={styles.item} onClick={() => onSelect("performance")}>
-          <FaChartLine style={styles.icon} /> Performance
-        </li>
-        <li style={styles.item} onClick={() => onSelect("reports")}>
-          <FaFileAlt style={styles.icon} /> Reports
-        </li>
-        <li style={styles.item} onClick={() => onSelect("settings")}>
-          <FaCog style={styles.icon} /> Settings
-        </li>
+    <div className={`sidebar ${collapsed ? "collapsed" : ""}`}>
+      {/* collapse toggle button */}
+      <button
+        className="collapse-btn"
+        onClick={() => setCollapsed((prev) => !prev)}
+      >
+        <MdMenu />
+      </button>
+
+      <ul className="sidebar-menu">
+        {menu.map((item) => (
+          <li
+            key={item.id}
+            className={`sidebar-item ${active === item.id ? "active" : ""}`}
+            onClick={() => handleSelect(item.id)}
+          >
+            <span className="icon">{item.icon}</span>
+            {!collapsed && <span className="label">{item.name}</span>}
+          </li>
+        ))}
       </ul>
     </div>
   );
-};
-
-const styles = {
-  sidebar: {
-    width: "230px",
-    height: "100vh",
-    backgroundColor: "white",
-    color: "#00000",
-    display: "flex",
-    flexDirection: "column",
-    padding: "20px",
-    boxShadow: "2px 0 5px rgba(0,0,0,0.1)",
-    position: "fixed",
-    left: 0,
-    top: 0,
-  },
-  logo: {
-    marginBottom: "40px",
-    fontSize: "20px",
-    fontWeight: "bold",
-    textAlign: "center",
-  },
-  menu: {
-    listStyleType: "none",
-    padding: 0,
-  },
-  item: {
-    padding: "12px 15px",
-    display: "flex",
-    alignItems: "center",
-    cursor: "pointer",
-    borderRadius: "6px",
-    transition: "background 0.2s",
-  },
-  icon: {
-    marginRight: "10px",
-  },
-};
-
-export default Sidebar;
+}

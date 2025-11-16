@@ -1,0 +1,88 @@
+/* Sidebar container */
+.sidebar {
+  width: 230px;
+  background: #ffffff;
+  height: 100vh;
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-right: 1px solid #e5e7eb;
+  transition: width 0.3s ease;
+  z-index: 10;
+}
+
+/* Collapsed mode */
+.sidebar.collapsed {
+  width: 70px;
+}
+
+/* Collapse button */
+.collapse-btn {
+  background: #4f46e5;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.collapse-btn:hover {
+  background: #4338ca;
+}
+
+/* Menu list */
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+/* Each item */
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 18px;
+  margin: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #374151;
+  transition: all 0.25s;
+}
+
+/* hover */
+.sidebar-item:hover {
+  background: #eef2ff;
+  transform: translateX(4px);
+}
+
+/* active item */
+.sidebar-item.active {
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+}
+
+/* icon size */
+.icon {
+  font-size: 22px;
+}
+
+/* label */
+.label {
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+/* hide label when collapsed */
+.sidebar.collapsed .label {
+  opacity: 0;
+  pointer-events: none;
+}
